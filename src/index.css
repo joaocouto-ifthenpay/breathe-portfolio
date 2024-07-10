@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Raleway:wght@200;400;600&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@layer base {
+    body {
+        @apply font-[Raleway]
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+.rsch_hover:hover {
+    background: #274C77;
+    border: 1px solid ;
+    border-radius: 1rem;
+    color: #E7ECEF;
+}
