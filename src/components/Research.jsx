@@ -2,9 +2,7 @@
 import React from "react";
 
 // Images import
-import Bolivia from "../assets/images/BoliviaCover.jpg"
-import Ecuador from "../assets/images/EcuadorDig.jpg"
-import Cedar from "../assets/images/CedarGrove.jpg"
+// import Cedar from "../assets/images/CedarGrove.jpg"
 
 const Research = () => {
   return (
@@ -13,7 +11,7 @@ const Research = () => {
       className="w-full h-50% bg-[#274C77] text-[#E7ECEF]"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto rounded-md p-4 flex flex-col justify-center w-full h-full">
+      {/* <div className="max-w-[1000px] mx-auto rounded-md p-4 flex flex-col justify-center w-full h-full">
         <div className="pl-4">
           <p className="text-4xl font-bold inline border-b-4 border-[#A3CEF1]">
             Research
@@ -22,7 +20,7 @@ const Research = () => {
             // These are current research projects I'm working on
           </p>
         </div>
-        {/* Research Container */}
+
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center p-8 ">
           <div className="shadow-md shadow-[#040c16] bg-[#6096BA] rsch_hover rounded-md duration-300">
             <a href="https://www.utrgv.edu/parcc/index.htm" target="_blank" rel="noreferrer">
@@ -44,7 +42,7 @@ const Research = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 };

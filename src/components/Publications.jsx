@@ -10,7 +10,7 @@ import doc4 from "../assets/publications/Juengstetal_2019_LAQ_unique_infant_mort
 import doc5 from "../assets/publications/Juengstetal2021_DietCopacabana (1).pdf";
 import cv from "../assets/Juengst_CV_public.pdf";
 
-import cover from "../assets/images/2.jpg";
+import cover from "../assets/images/2023_1.jpg";
 
 const pubData = [
   {
