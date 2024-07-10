@@ -7,12 +7,12 @@ const About = () => {
     const avatarStyle = { width: 'auto', height: '200px' };
 
     return (
-        <div name="author" className="w-full h-screen bg-[#274C77] text-[#E7ECEF]">
+        <div name="author" className="w-full h-screen bg-[#04705C] text-[#E7ECEF]">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 {/* Container */}
                 <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                     <div className="sm:text-right pb-8 pl-4">
-                        <p className="text-4xl font-bold inline border-b-4 border-[#A3CEF1]">
+                        <p className="text-4xl font-bold inline border-b-4 border-[#09C9A4]">
                             Autor
                         </p>
                     </div>

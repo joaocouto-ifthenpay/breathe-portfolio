@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#274C77] text-[#E7ECEF]">
+    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#04705C] text-[#E7ECEF]">
       <div>
         <img src={Logo} alt="Logo Initials Duo" style={{ width: "140px" }} />
       </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#274C77] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#04705C] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -144,7 +144,7 @@ const Navbar = () => {
               Research Gate <SiResearchgate size={30} />
             </a>
           </li> */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6096BA]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#06a689]">
             <a
               className="flex justify-between items-center w-full text-[#E7ECEF]"
               href="https://anthropology.charlotte.edu/node/99/"
@@ -154,7 +154,7 @@ const Navbar = () => {
               UNC Charlotte <IoMdSchool size={40} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6096BA]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#06a689]">
             <a
               className="flex justify-between items-center w-full text-[#E7ECEF]"
               href="mailto:sjuengst@charlotte.edu"
@@ -164,7 +164,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6096BA]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#06a689]">
             <a
               className="flex justify-between items-center w-full text-[#E7ECEF]"
               href={Resume}

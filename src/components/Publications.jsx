@@ -63,13 +63,13 @@ const Publications = () => {
     // Main Section
     <div
       name="publications"
-      className="w-full bg-[#274C77] text-[#E7ECEF] p-4"
+      className="w-full bg-[#04705C] text-[#E7ECEF] p-4"
     >
       {/* Main Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         {/* Title Start */}
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#A3CEF1]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#09C9A4]">
             Documentação
           </p>
           <p className="py-6">Confira os documentos produzidos durante o desenvolvimento do projeto</p>
@@ -124,7 +124,7 @@ const Publications = () => {
                     {/* Flip Card Back Interior Div */}
                     <div className="pt-8 text-center flex flex-col item-center">
                       <a href={link} target="_blank" rel="noreferrer">
-                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#E7ECEF] text-[#8B8C89] font-bold text-lg hover:text-[#274C77] ">
+                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#E7ECEF] text-[#8B8C89] font-bold text-lg hover:text-[#04705C] ">
                           Read Now
                         </button>
                       </a>
@@ -134,7 +134,7 @@ const Publications = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#E7ECEF] text-[#8B8C89] font-bold text-lg hover:text-[#274C77]">
+                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#E7ECEF] text-[#8B8C89] font-bold text-lg hover:text-[#04705C]">
                           Download
                         </button>
                       </a>
