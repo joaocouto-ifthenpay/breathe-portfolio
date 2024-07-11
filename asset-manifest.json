@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/breathe-portfolio/static/css/main.99802c86.css",
-    "main.js": "/breathe-portfolio/static/js/main.0c904574.js",
+    "main.css": "/breathe-portfolio/static/css/main.0850b762.css",
+    "main.js": "/breathe-portfolio/static/js/main.fe878be7.js",
     "static/media/A3_Juengst2020_VITAL_TOPICS_FORUM_Cooperative_Bodies_Bi.pdf": "/breathe-portfolio/static/media/A3_Juengst2020_VITAL_TOPICS_FORUM_Cooperative_Bodies_Bi.751eb911bde3754077f2.pdf",
     "static/media/A7_Juengst_Chavez_2015_IJPP_Three_Trepanned_Skulls_from_the_Copacaba.pdf": "/breathe-portfolio/static/media/A7_Juengst_Chavez_2015_IJPP_Three_Trepanned_Skulls_from_the_Copacaba.75de2e80692573c53555.pdf",
     "static/media/A10_Juengst_2018_BI_PowerBolivia.pdf": "/breathe-portfolio/static/media/A10_Juengst_2018_BI_PowerBolivia.5d5c06beac18ea1fd22f.pdf",
-    "static/media/Juengstetal2021_DietCopacabana (1).pdf": "/breathe-portfolio/static/media/Juengstetal2021_DietCopacabana (1).602a4a5abc31dae265e4.pdf",
     "static/media/Juengst_CV_public.pdf": "/breathe-portfolio/static/media/Juengst_CV_public.5e615732b6a69c705eec.pdf",
     "static/media/Juengstetal_2019_LAQ_unique_infant_mortuary_ritual_at_salango_ecuador_100_bc.pdf": "/breathe-portfolio/static/media/Juengstetal_2019_LAQ_unique_infant_mortuary_ritual_at_salango_ecuador_100_bc.79ee31914b876f626b6a.pdf",
     "static/media/2023_1.jpg": "/breathe-portfolio/static/media/2023_1.a909fd03acad98a28cbb.jpg",
     "index.html": "/breathe-portfolio/index.html",
-    "main.99802c86.css.map": "/breathe-portfolio/static/css/main.99802c86.css.map",
-    "main.0c904574.js.map": "/breathe-portfolio/static/js/main.0c904574.js.map"
+    "main.0850b762.css.map": "/breathe-portfolio/static/css/main.0850b762.css.map",
+    "main.fe878be7.js.map": "/breathe-portfolio/static/js/main.fe878be7.js.map"
   },
   "entrypoints": [
-    "static/css/main.99802c86.css",
-    "static/js/main.0c904574.js"
+    "static/css/main.0850b762.css",
+    "static/js/main.fe878be7.js"
   ]
 }
