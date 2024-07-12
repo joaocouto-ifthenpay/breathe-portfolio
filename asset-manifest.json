@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/breathe-portfolio/static/css/main.0850b762.css",
-    "main.js": "/breathe-portfolio/static/js/main.fe878be7.js",
+    "main.css": "/breathe-portfolio/static/css/main.e6c0c094.css",
+    "main.js": "/breathe-portfolio/static/js/main.ff7d816e.js",
     "static/media/A3_Juengst2020_VITAL_TOPICS_FORUM_Cooperative_Bodies_Bi.pdf": "/breathe-portfolio/static/media/A3_Juengst2020_VITAL_TOPICS_FORUM_Cooperative_Bodies_Bi.751eb911bde3754077f2.pdf",
     "static/media/A7_Juengst_Chavez_2015_IJPP_Three_Trepanned_Skulls_from_the_Copacaba.pdf": "/breathe-portfolio/static/media/A7_Juengst_Chavez_2015_IJPP_Three_Trepanned_Skulls_from_the_Copacaba.75de2e80692573c53555.pdf",
     "static/media/A10_Juengst_2018_BI_PowerBolivia.pdf": "/breathe-portfolio/static/media/A10_Juengst_2018_BI_PowerBolivia.5d5c06beac18ea1fd22f.pdf",
@@ -9,11 +9,11 @@
     "static/media/Juengstetal_2019_LAQ_unique_infant_mortuary_ritual_at_salango_ecuador_100_bc.pdf": "/breathe-portfolio/static/media/Juengstetal_2019_LAQ_unique_infant_mortuary_ritual_at_salango_ecuador_100_bc.79ee31914b876f626b6a.pdf",
     "static/media/2023_1.jpg": "/breathe-portfolio/static/media/2023_1.a909fd03acad98a28cbb.jpg",
     "index.html": "/breathe-portfolio/index.html",
-    "main.0850b762.css.map": "/breathe-portfolio/static/css/main.0850b762.css.map",
-    "main.fe878be7.js.map": "/breathe-portfolio/static/js/main.fe878be7.js.map"
+    "main.e6c0c094.css.map": "/breathe-portfolio/static/css/main.e6c0c094.css.map",
+    "main.ff7d816e.js.map": "/breathe-portfolio/static/js/main.ff7d816e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0850b762.css",
-    "static/js/main.fe878be7.js"
+    "static/css/main.e6c0c094.css",
+    "static/js/main.ff7d816e.js"
   ]
 }
