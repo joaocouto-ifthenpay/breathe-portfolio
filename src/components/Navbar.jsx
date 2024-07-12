@@ -7,6 +7,7 @@ import { SiResearchgate } from "react-icons/si";
 // import Logo from "../assets/Logo_Skull_fill.png";
 import Resume from "../assets/Juengst_CV_public.pdf";
 import { Link } from "react-scroll";
+import { getAuth, signOut } from 'firebase/auth';
 
 const Logo = "https://upload.wikimedia.org/wikipedia/commons/7/70/Logo_ispgaya.png";
 // const Logo = "https://sigarra.up.pt/fmup/pt/imagens/LogotipoSI";
@@ -14,6 +15,15 @@ const Logo = "https://upload.wikimedia.org/wikipedia/commons/7/70/Logo_ispgaya.p
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const handleLogout = () => {
+    const auth = getAuth();
+    signOut(auth).then(() => {
+      console.log('Logout done successfuly');
+    }).catch((error) => {
+      console.error("Error during logout: ", error);
+    });
+  };
 
   return (
     <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#04705C] text-[#E7ECEF]">
@@ -46,6 +56,11 @@ const Navbar = () => {
         <li>
           <Link to="publications" smooth={true} duration={500}>
             Documentação
+          </Link>
+        </li>
+        <li>
+          <Link to="publications" onClick={handleLogout}>
+            Sair
           </Link>
         </li>
         {/* <li>
@@ -97,6 +112,11 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="publications" smooth={true} duration={500}>
             Documentação
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleLogout}>
+            Sair
           </Link>
         </li>
         {/* <li className="py-6 text-4xl">

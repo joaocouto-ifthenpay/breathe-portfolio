@@ -7,7 +7,6 @@ import doc1 from "../assets/publications/A3_Juengst2020_VITAL_TOPICS_FORUM_Coope
 import doc2 from "../assets/publications/A7_Juengst_Chavez_2015_IJPP_Three_Trepanned_Skulls_from_the_Copacaba.pdf";
 import doc3 from "../assets/publications/A10_Juengst_2018_BI_PowerBolivia.pdf";
 import doc4 from "../assets/publications/Juengstetal_2019_LAQ_unique_infant_mortuary_ritual_at_salango_ecuador_100_bc.pdf";
-import doc5 from "../assets/publications/Juengstetal2021_DietCopacabana (1).pdf";
 import cv from "../assets/Juengst_CV_public.pdf";
 
 import cover from "../assets/images/2023_1.jpg";
@@ -26,29 +25,23 @@ const pubData = [
     link: "https://www.google.com/",
     download: doc2,
   },
+  // {
+  //   id: 3,
+  //   title:
+  //     "Complexity and Power: A Bioarchaeological Analysis of Socioeconomic Change on the Copacabana Peninsula, 800 BC–AD 200",
+  //   link: "https://www.google.com/",
+  //   download: doc3,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Unique Infant Mortuary Ritual at Salango, Ecuador, 100 BC",
+  //   link: "https://www.google.com/",
+  //   download: doc4,
+  // },
   {
     id: 3,
-    title:
-      "Complexity and Power: A Bioarchaeological Analysis of Socioeconomic Change on the Copacabana Peninsula, 800 BC–AD 200",
-    link: "https://www.google.com/",
-    download: doc3,
-  },
-  {
-    id: 4,
-    title: "Unique Infant Mortuary Ritual at Salango, Ecuador, 100 BC",
-    link: "https://www.google.com/",
-    download: doc4,
-  },
-  {
-    id: 5,
-    title: "The resiliency of diet on the Copacabana Peninsula, Bolivia",
-    link: "https://www.google.com/",
-    download: doc5,
-  },
-  {
-    id: 6,
-    title: "Download CV for full list of publications",
-    link: "https://scholar.google.com/citations?user=BgXZnAcAAAAJ&hl=en",
+    title: "Curriculum vitae Europass",
+    link: "https://www.linkedin.com/in/joaopedrocouto/",
     download: cv,
   },
 ];

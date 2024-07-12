@@ -9,12 +9,17 @@ import News from "./components/News";
 import Students from "./components/Students";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Popup from "./components/Popup";
+
+
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
+      <Popup />
+      {/* <Auth /> */}
       <Author />
       <Project />
       {/* <Research /> */}
